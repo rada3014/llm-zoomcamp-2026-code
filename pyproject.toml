@@ -1,0 +1,26 @@
+[project]
+name = "llm-zoomcamp-2026-code"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Rahul Arora", email = "31566616+rada3014@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "gitsource>=0.0.5",
+    "jupyter>=1.1.1",
+    "minsearch>=0.2.0",
+    "openai>=3.24.0",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+    "sqlitesearch>=0.3.0",
+    "toyaikit>=0.0.11",
+]
+
+[project.scripts]
+llm-zoomcamp-2026-code = "llm_zoomcamp_2026_code:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
